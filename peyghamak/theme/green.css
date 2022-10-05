@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* page coloring */
+
+/*elements*/
+#post{
+	background-image:url(images/green/post_bg.png);
+}
+#comment{
+	background-image:url(images/green/post_bg_long.png);
+}
+#post_guest{
+	background-image:url(images/green/post_bg.png);
+}
+#counter{
+	color:#FFFFFF;
+}
+
+

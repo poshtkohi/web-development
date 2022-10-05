@@ -1,0 +1,11 @@
+@charset "utf-8";
+body{
+	background-color:#000000;
+	background-image:url(bg/music1.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	_behavior:url(iepngfix.htc);	
+}
+#message, #message_comment{
+	border-bottom:#999999 solid 1px;
+}

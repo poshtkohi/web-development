@@ -1,0 +1,8 @@
+@charset "utf-8";
+body{
+	background-image:url(http://www.peyghamak.com/theme/bg/cont2.png);
+	background-color:#fef1dd;
+	background-repeat:repeat;
+	_behavior:url(iepngfix.htc);	
+}
+

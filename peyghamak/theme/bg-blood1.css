@@ -1,0 +1,22 @@
+@charset "utf-8";
+body{
+	background-image:url(http://www.peyghamak.com/theme/bg/blood1.jpg);
+	background-color:#000000;
+	background-repeat:no-repeat;
+}
+#message, #message_comment{
+	border-bottom:#999999 solid 1px;
+	border-top:#999999 solid 1px;
+}
+#message a, #message_comment a{
+	color:#666666;	
+}
+.date{
+	color:#666666;
+}
+#comments_counter{
+	color:#666666;
+}
+.bottom_menus, .bottom_menus a, .bottom_menus a:visited, .bottom_menus a:hover{
+	color:#333333;
+}

@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="YahooIn.aspx.cs" Inherits="Peyghamak.messenger.yahooIn" validateRequest="false"%>

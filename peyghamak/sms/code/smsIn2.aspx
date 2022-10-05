@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="smsIn2.aspx.cs" Inherits="Peyghamak.sms.smsIn2" %>

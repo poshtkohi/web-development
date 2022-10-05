@@ -1,0 +1,1 @@
+<%@ Page Language="C#" CodeFile="smsIn.aspx.cs" Inherits="Peyghamak.sms.smsIn" validateRequest="false"%>

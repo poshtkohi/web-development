@@ -1,0 +1,51 @@
+TD {
+	FONT-SIZE: 8pt; FONT-FAMILY: Arial, sans-serif
+}
+.mnbdy {
+	PADDING-BOTTOM: 2px; MARGIN: 0px; BACKGROUND-COLOR: #f4f6fa; font-family:tahoma
+}
+.fmbdy {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 2px; BACKGROUND-COLOR: #f4f6fa
+}
+A:link {
+	COLOR: #0067a9; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #0067a9; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.hbtbl {
+	TABLE-LAYOUT: fixed; OVERFLOW: hidden; WORD-WRAP: break-word
+}
+.stxt {
+	COLOR: #2d4063;TEXT-ALIGN: right; direction:rtl;font-family:Tahoma
+}
+.stxt2 {
+	COLOR: #2d4063; BACKGROUND-COLOR: #dbe2ed;TEXT-ALIGN: right; direction:rtl;font-family:Tahoma
+}
+.dtxt {
+	FONT-SIZE: 7pt; COLOR: #889ab6; TEXT-ALIGN: right; direction:rtl;font-family:Tahoma
+}
+.dtxt2 {
+	FONT-SIZE: 7pt; COLOR: #889ab6; TEXT-ALIGN: right; direction:rtl;font-family:Tahoma
+}
+.cfrm {
+	MARGIN-BOTTOM: 0px
+}
+.frmtb {
+	BORDER-RIGHT: #2d4063 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #2d4063 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 7pt; MARGIN: 1px 2px; BORDER-LEFT: #2d4063 1px solid; COLOR: #2d4063; BORDER-BOTTOM: #2d4063 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #dbe2ed
+}
+.frmbtn {
+	BORDER-RIGHT: #2d4063 1px solid; BORDER-TOP: #2d4063 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; MARGIN: 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #2d4063 1px solid; COLOR: #2d4063; BORDER-BOTTOM: #2d4063 1px solid; FONT-FAMILY:Tahoma; BACKGROUND-COLOR: #889ab6
+}
+.lnk {
+	COLOR: #0067a; font-family:tahoma;
+}
+.pic {
+	PADDING-RIGHT: 2px; FLOAT: left; MARGIN-LEFT: -2px; WIDTH: 45px; MARGIN-RIGHT: 0px; HEIGHT: 45px
+}

@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="rss.aspx.cs" Inherits="Peyghamak.rss" %>

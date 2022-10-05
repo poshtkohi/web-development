@@ -1,0 +1,174 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "peyghamak.com", "http://peyghamak.com", "{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/peyghamak.com"
+		Debug.AspNetCompiler.PhysicalPath = "..\Peyghamak.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\peyghamak.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/peyghamak.com"
+		Release.AspNetCompiler.PhysicalPath = "..\Peyghamak.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\peyghamak.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\Peyghamak.com\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "services", "http://www.iranblog.com/services", "{3C66A004-ABDB-4F2B-A113-A8272B807BB1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/ss"
+		Debug.AspNetCompiler.PhysicalPath = "..\IranBlog\services\"
+		Debug.AspNetCompiler.TargetPath = "C:\Documents and Settings\alireza\Desktop\ss\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ss"
+		Release.AspNetCompiler.PhysicalPath = "..\IranBlog\services\"
+		Release.AspNetCompiler.TargetPath = "C:\Documents and Settings\alireza\Desktop\ss\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\services\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogContent", "..\IranBlog\services\BlogContent\BlogContent.csproj", "{B9899CC9-0537-49C2-8B6D-07408190D03D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Debug|.NET.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Debug|.NET.Build.0 = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Release|.NET.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Release|.NET.Build.0 = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Debug|.NET.ActiveCfg = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Debug|.NET.Build.0 = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Release|.NET.ActiveCfg = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Release|.NET.Build.0 = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Release|.NET.ActiveCfg = Release|Any CPU
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+EndGlobal

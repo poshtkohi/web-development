@@ -1,0 +1,12 @@
+/* COPYRIGHT 2006  AMIR HOSSEIN AKBARI >FULL FLASH ,DHTML TEMPLATE DESIGN. PLEASE CONTACT ME USING : AMIR.H.AKBARI@GMAIL.COM AND MY YAHOO ID : AMIR_H_AKBARI ! */
+.v3butsubmenu {  border-top:1px solid #D6D7D6;  padding:3px 3px 2px 9px; background-color:#F7F7F7;font-family:tahoma;font-size:13px; text-align:right }
+.v3butsubmenu_end {  border-top:1px solid #D6D7D6;border-bottom:1px solid #D6D7D6;  padding:2px 2px 2px 9px; background-color:#F7F7F7;font:tahoma;font-size:13px; text-align:right }
+.v3butsubmenu_off { background-color:#f3f3f3; padding:0px 14px 0px 2px; text-align:right;font-size:11px; }
+.v3butsubmenu_off a, .v3butsubmenu_off a:visited{ color:#666666; text-decoration:none; text-align:right;font-size:11px;  }
+.v3butsubmenu_off a:hover { color:#666666; text-align:right;font-size:11px;  }
+.v3butsubmenu_on { background-color:#FFFFFF;  padding:0px 14px 0px 0px; cursor:pointer; text-align:right ;font-size:11px; }
+.v3butsubmenu_on a, .v3butsubmenu_on a:visited{ color:#99CC00; text-decoration:none; text-align:right;font-size:11px;  }
+.v3butsubmenu_on a:hover {color:#99CC00; text-decoration:none; text-align:right;font-size:11px;  }/* abi */
+.v3butsubmenu_selected{border-top:1px solid #D6D7D6;padding:2px 2px 2px 9px;background-color:#ffffff;color:#669900;font-family:tahoma;font-size:13px; text-align:right }
+.v3butsubmenu_selected a:hover {color:#FF6600; text-decoration:none; text-align:right;font-size:13px;  }/* abi */
+ /* COPYRIGHT 2006  AMIR HOSSEIN AKBARI >FULL FLASH ,DHTML TEMPLATE DESIGN. PLEASE CONTACT ME USING : AMIR.H.AKBARI@GMAIL.COM AND MY YAHOO ID : AMIR_H_AKBARI ! */

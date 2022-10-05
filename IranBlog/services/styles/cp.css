@@ -1,0 +1,173 @@
+#Container {
+	WIDTH: 762px; BACKGROUND-COLOR: #fff; text-direction: rtl
+}
+#Content {
+	LEFT: 13px; WIDTH: 736px; POSITION: absolute; TOP: 0px
+}
+#Padline {
+	PADDING-TOP: 7px
+}
+.box {
+	BORDER-RIGHT: #e4e4f1 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #e4e4f1 1px solid; WIDTH: 100%; BORDER-BOTTOM: #e4e4f1 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: white
+}
+.box .header {
+	BACKGROUND-IMAGE: url(/services/images/hbg.gif); WIDTH: 100%; BORDER-BOTTOM: #e4e4f1 1px solid; BACKGROUND-REPEAT: repeat-x; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.box .title {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 8pt; PADDING-BOTTOM: 3px; WIDTH: 100%; PADDING-TOP: 3px; FONT-FAMILY: Tahoma
+}
+.box .content {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 100%; PADDING-TOP: 2px; TEXT-ALIGN: right
+}
+.box .content2 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 100%; PADDING-TOP: 2px; TEXT-ALIGN: right
+}
+.box .content2 A:link {
+	WIDTH: 130px; COLOR: #0560a6; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.box .content2 A:visited {
+	WIDTH: 130px; COLOR: #0560a6; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.box .content2 A:hover {
+	WIDTH: 130px; COLOR: navy; HEIGHT: 20px; BACKGROUND-COLOR: #e9e9fc; TEXT-DECORATION: none
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma
+}
+.Textbox {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c0c0c0 1px solid; COLOR: #000000; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: Tahoma; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff;
+}
+.Textarea {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c0c0c0 1px solid; COLOR: #000000; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #ffffff
+}
+.s {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: red; FONT-FAMILY: Tahoma
+}
+.oBtnMain {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: Tahoma; HEIGHT: 23px; BACKGROUND-COLOR: #ff6600
+}
+.oBtn3 {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 8.5pt; BACKGROUND-IMAGE: url(/services/images/btn.gif); BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma; HEIGHT: 23px; BACKGROUND-COLOR: #3973b3
+}
+.oBtn {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(/services/images/obtn.gif); BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma; HEIGHT: 23px; BACKGROUND-COLOR: #ff6600
+}
+.bTD {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #f5fafe
+}
+.bTDA {
+	BORDER-TOP: #d2e3fb 1px solid; FONT-SIZE: 8pt; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #e0edf1
+}
+.bTDH {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #c8e0fb
+}
+A:link {
+	COLOR: #0560a6; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #0560a6; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+.message {
+	background-color: #FAFAFA;
+/*	padding: 5px; margin: 20px 10px 0 10px;*/
+	border: 1px solid #FFFF00;
+	font-size: x-small; 
+	font-family:tahoma; 
+	color:#FF0000;
+	text-align:center;
+	direction:rtl;
+	WIDTH: 550px;
+}
+
+#user_profile{
+	float:left;
+	width:180px;
+	margin-left:20px;
+	margin-top:15px;
+	background-color:#EEEEEE;
+	height:80px;
+	overflow:hidden;
+	font-family:Tahoma;
+	color:#666666;
+	text-align:right;
+	font-size:11px;
+}
+#user_profile .t{
+	padding:2px;
+	display:block;
+	height:50px;
+	overflow:hidden;
+}
+#user_profile .op{
+	width:100px;
+	margin-right:0;
+
+}
+#user_profile .op img{
+	border:none;
+	float:right;
+}
+#user_profile:hover{
+	background-color:#DDDDDD;
+}
+#user_profile img{
+	border:1px solid #333333;
+	padding:1px;
+	clear:none;
+	float:left;
+}
+
+.Blue_link{
+	display:block;
+	padding:3px;
+	direction:ltr;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#333333;
+	text-decoration:none;
+
+	text-align:center;
+	
+}
+.Blue_link a:link, .Blue_link a:visited, .Blue_link a:active{
+	background-color:#e4f3fc;
+	border:#79c4eb solid 1px;
+	direction:ltr;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#333333;
+	width:15px;
+	text-decoration:none;
+}
+.Blue_link a:hover{
+	background-color:#b2cede;
+	border:#79c4eb solid 1px;
+	direction:ltr;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#003366;
+	text-decoration:underline;
+}
+#view{
+	width:99%px;
+	float:none;
+	margin-top:10px;
+}
+#view a{
+	border:none;
+}
+#view img{
+	border:#999999 solid 1px;
+}
+
+.hometb A:link { FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: navy; FONT-FAMILY: Arial; TEXT-DECORATION: none }
+.hometb A:visited { FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: navy; FONT-FAMILY: Arial; TEXT-DECORATION: none }
+.hometb A:hover { FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: red; FONT-FAMILY: Arial; TEXT-DECORATION: none }
+.hometb TD { PADDING-BOTTOM: 6px }
+#Content {position: absolute; top: 0px; left: 13px; width: 736px;}

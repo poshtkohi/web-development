@@ -1,0 +1,91 @@
+	body, div,input, select{
+	font-family:tahoma;
+	font-size:8pt;
+	font-color:black;
+	}
+	Table{
+	font-family:tahoma;
+	font-size:8pt;
+	font-color:black;
+	}
+	.header-content{
+	background-repeat:no-repeat;
+	background-position:left;
+	}
+	.iranblog-header-logo-en{
+	margin-left:15px;
+	margin-top:5px;
+	}
+	.iranblog-header-logo-fa{
+	margin-right:15px;
+	margin-top:7px;
+	}
+	.content{
+	
+	}
+	.u-w-c{
+	margin-bottom:7px;
+	color:#FFFFFF;
+	}
+	.p{
+	color:#FFFFFF;
+	}
+a{
+
+	text-decoration:none;
+
+}
+
+a.menu-links{
+
+	text-decoration:none;
+	color:#FFFFFF;
+	width:100%;
+	display: block;
+	outline: none;
+	cursor: hand
+
+}
+
+.updates{
+
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.menu-footer-bg{
+
+	background-image:url('menu-down-bg.gif');
+	background-repeat:repeat-x;
+	height:12px
+
+}
+.img{
+
+	border: 0px
+
+}
+.headerlinks
+{
+ color:#000000
+}
+.main {FONT-SIZE:  8pt}
+.main2 {FONT-SIZE:  8pt; padding:2px 0px 2px 0px;}
+.v3headersearch {   direction:rtl ; width:95px; height:16px; border:1px solid #CCCCCC; padding:0px;  font:Tahoma;font-size:8pt; vertical-align:top; }
+.v3txtboxcontactform{  direction:rtl ;  width:125px; height:17px; border:1px solid #CCCCCC; padding:0px;  font:Tahoma;font-size:8pt ;vertical-align:top; }
+.v3txtboxReg155form{  direction:rtl ;  width:155px; height:18px; border:1px solid #CCCCCC; padding:0px;  font:Tahoma;font-size:8pt ;vertical-align:top; color:#333333}.v3txtboxReg255form{  direction:rtl ;  width:255px; height:18px; border:1px solid #CCCCCC; padding:0px;  font:Tahoma;font-size:8pt ;vertical-align:top; color:#333333}.v3SelectReg155form{    direction:rtl ; width:155px; height:18px;  font:Tahoma;font-size:8pt; border:1px solid #CCCCCC; color:#333333}.v3txtboxcomentform{  direction:rtl ;  width:390px; height:182px; border:1px solid #CCCCCC; padding:0px;  font:Tahoma;font-size:8pt; vertical-align:top; color:#333399;}.v3select {   direction:rtl ; width:127px; height:18px;  font:Tahoma;font-size:8pt; border:1px solid #CCCCCC; }.v3select2 {  direction:rtl ;   font:Tahoma;font-size:8pt; }.v3bg-title{ background-repeat:repeat-x  }.v3line{line-height:1.5}.v3searchlhn {   direction:rtl ;margin:4px 0px 0px 0px; }.v3lhninp {  width:100px; height:16px; border:1px solid #CCCCCC; padding:0px; font-family:Tahoma; font-size:100%; vertical-align:top; }.v3lhnsearchhdr {  font-size:105%; color:#000000; margin:0px; padding:8px 0px 0px 0px; font-weight:bold; }
+.v3submit {BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(/images/ibbtn.png); BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma; HEIGHT: 22px; BACKGROUND-COLOR: #ccff00}.v3submitReg {  font-size:12px; font-family:Tahoma;width:200px; height:19px; border:1px solid #b9d300;background-color:#7EC201; color:#FFFFFF;text-align:center ; vertical-align:middle}
+.v3ibbtn{BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(/images/ibbtn.png); BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma; HEIGHT: 22px; BACKGROUND-COLOR: #ccff00}.v3color_orange{ color:#FF6600;}.v3color_green{ color:#6DB201;}.v3color_jobs{ color:#4E6172;}
+.v3color_redbrown{ color:#CC0000;}
+.v3color_zeytoni{ color:#999900;}
+.v3h4homepage { 	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 105%; PADDING-BOTTOM: 2px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: #bababa 1px solid}
+.v3scrolling{ SCROLLBAR-FACE-COLOR: #9bb700; SCROLLBAR-HIGHLIGHT-COLOR: #66cc99; SCROLLBAR-SHADOW-COLOR: #ffdfbf; SCROLLBAR-3DLIGHT-COLOR: #9bb700; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #49692c; SCROLLBAR-DARKSHADOW-COLOR: #9bb700 }
+A:visited {FONT-SIZE:  8pt; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+A:active {FONT-SIZE:  8pt; COLOR:#CC0000; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline}
+A:hover {FONT-SIZE:  8pt; COLOR:#CCCCCC; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline}
+
+#sidebar {float: right; direction: rtl; text-align: right; }
+#homeupdateblog { float: left; direction: rtl; text-align: right; margin-left:2px; padding: 0;}
+#homeupdateblog ul { margin: 0 10px; padding: 15px 0; list-style-type: none; }
+#homeupdateblog img { border-width: 0px}
+#homeupdateblog a { color: #053799; text-decoration: none; }
+#homeupdateblog a:hover { color: #f00; text-decoration: none; }

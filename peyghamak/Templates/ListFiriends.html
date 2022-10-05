@@ -1,0 +1,36 @@
+<list>
+        <div id="user_profile">
+        <!--bezar <a href="#"> bashe, ta cursor hand beshe-->
+        <a href="[url]"><img src="[image]"/></a>
+        <span class="t">
+        [name] <age>[age] ساله، </age>[country]<city>-[city]</city>
+        </span>
+        <!--age login shode bod ino neshon bede-->
+        <!--az inja-->
+        <span class="op">
+          <add>
+                <a href="#" onclick="return FriendManagement(this,'add','[FriendBlogID]','[mode]');"><img src="http://www.peyghamak.com/theme/images/green/add_btn.png" style="border-width:0px" title="به دوستان من اضافه کن"/></a>
+          </add>
+          <remove>
+                <a href="#" onclick="return FriendManagement(this,'remove','[FriendBlogID]','[mode]');"><img src="http://www.peyghamak.com/theme/images/green/remove_btn.png" style="border-width:0px;" title="از دوستان من حرف کن"/></a>
+          </remove>
+          <block>
+                <div class="profile_remove"><a href="javascript:void(0);" onclick="return FriendManagement(this,'block','[FriendBlogID]','[mode]');"><img src="http://www.peyghamak.com/images/Buttons/removefriend.png" width="15" height="15" align="texttop" style="border-width:0px"/>&nbsp;از دوستان من مسدود کن</a></div>
+          </block>
+          <heblocked>
+                <div class="profile_remove">  <img src="http://www.peyghamak.com/images/Buttons/removefriend.png" width="15" height="15" align="texttop" style="border-width:0px"/>&nbsp;شما از این شخص مسدود شده اید</div>
+          </heblocked>
+          <meblocked>
+                <div class="profile_remove">  <img src="http://www.peyghamak.com/images/Buttons/removefriend.png" width="15" height="15" align="texttop" style="border-width:0px"/>&nbsp;شما این شخص را مسدود کرده اید</div>
+          </meblocked>
+          <message>
+                <a href="message.aspx?PersonID=[FriendBlogID]"><img src="http://www.peyghamak.com/theme/images/green/pm_btn.png" title="پیغام شخصی"/></a>
+          </message>
+        </span>
+        <!--ta inja-->
+        </div> 
+</list>
+
+<paging>
+    <div align="center"><div class="pager" id="pager" style="direction:ltr; width:100%">[paging]</div></div>
+</paging>

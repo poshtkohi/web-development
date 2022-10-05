@@ -1,0 +1,184 @@
+.td_mainborderTop-right{
+	background-image:url(http://www.peyghamak.com/images/Tables/Top-right.png);
+	background-repeat:no-repeat;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/Top-right.png');_background:transparent;
+}
+.td_mainborderTop-left {
+	background-image:url(http://www.peyghamak.com/images/Tables/Top-left.png);
+	background-repeat:no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/Top-left.png'); _background:transparent;
+}
+
+.td_mainborderTop-fill{
+	background-image:url(http://www.peyghamak.com/images/Tables/Top-fill.png);
+	background-repeat:repeat-x;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/Top-fill.png', sizingMethod=scale);_background:transparent;
+}
+.td_mainborderButtom-left {
+	background-image:url(http://www.peyghamak.com/images/Tables/buttom-left.png);
+	background-repeat:no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/buttom-left.png', sizingMethod=scale); _background:transparent;
+}
+.td_mainborderButtom-right {
+	background-image:url(http://www.peyghamak.com/images/Tables/buttom-right.png);
+	background-repeat:no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/buttom-right.png'); _background:transparent;
+}
+.td_mainborderButtom-fill {
+	background-image:url(http://www.peyghamak.com/images/Tables/buttom-fill.png);
+	background-repeat:repeat-x;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/buttom-fill.png',sizingMethod=scale, enabled=true); _background:transparent;
+}
+.td_mainborderLeft-fill {
+	background-image:url(http://www.peyghamak.com/images/Tables/left-fill.png);
+	background-repeat:repeat-y;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/left-fill.png',sizingMethod=scale, enabled=true); _background:transparent;
+}
+.td_mainborderRight-fill {
+	background-image:url(http://www.peyghamak.com/images/Tables/right-fill.png);
+	background-repeat:repeat-y;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/right-fill.png',sizingMethod=scale, enabled=true);
+	_background:transparent;
+}
+.td_mainborderFill{
+	background-color:#FFFFFF;
+}
+/*GREEN******************************************************************************/
+.td_mainborderTop-right-green{
+	background-image:url(http://www.peyghamak.com/images/Tables/Top-righ-green.png);
+	background-repeat:no-repeat;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/Top-righ-green.png');_background:transparent;
+
+}
+
+.td_mainborderTop-left-green{
+	background-image:url(http://www.peyghamak.com/images/Tables/Top-left-green.png);
+	background-repeat:no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/Top-left-green.png'); _background:transparent;
+}
+
+.td_mainborderTop-fill-green{
+	background-image:url(http://www.peyghamak.com/images/Tables/Top-fill-green.png);
+	background-repeat:repeat-x;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/Top-fill-green.png', sizingMethod=scale);_background:transparent;
+}
+.td_mainborderLeft-fill-green {
+	background-image:url(http://www.peyghamak.com/images/Tables/left-fill-green.png);
+	background-repeat:repeat-y;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/left-fill-green.png',sizingMethod=scale, enabled=true); _background:transparent;
+	overflow:hidden;
+}
+.td_mainborderRight-fill-green {
+	background-image:url(http://www.peyghamak.com/images/Tables/right-fill-green.png);
+	background-repeat:repeat-y;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/right-fill-green.png',sizingMethod=scale, enabled=true); _background:transparent;
+}
+.td_mainborderFill_green{
+	background-color:#B4D674;
+}
+.menuBar {
+	background-image:url(http://www.peyghamak.com/images/menubar.png);
+	background-repeat:no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/menubar.png',sizingMethod=scale, enabled=true); _background:transparent;
+}
+
+/*POST*****************************************************************************************/
+.postBg {
+	background-image:url(http://www.peyghamak.com/images/postbg.png);
+	background-repeat:no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/postbg.png',sizingMethod=scale, enabled=true); _background:transparent;
+}
+.postText {
+	padding-left:10px;
+	background-image:url(http://www.peyghamak.com/images/posttext.png);
+	background-repeat:no-repeat;
+}
+.postText_memImg img {
+	border-color:#f2f2f2;
+	border-style:solid;
+	border-width:medium;
+}
+.showPost_buttom img{
+	margin-bottom:-3px;
+}
+.showPost_buttom a, .showPost_buttom a:link, .showPost_buttom a:visited{
+	color:#666666;
+	text-decoration:none;
+}
+.showPost_buttom a:hover{
+	color:#0066CC;
+	text-decoration:underline;
+}
+.showPost_fill{
+	font-family:Tahoma;
+	font-size:12px;
+	color:#333333;
+	padding-left:30px;
+	padding-right:30px;
+	text-align:left;
+	background-image:url(http://www.peyghamak.com/images/Tables/showpost_fill.png);
+	background-repeat:repeat-y;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/Tables/showpost_fill.png',sizingMethod=scale, enabled=true); _background:transparent;	
+}
+
+.showpost_memImg img{
+	padding:2px;
+	border-color:#509fcc;
+	border-style:solid;
+	border-width:1px;
+	margin: 2px 2px 2px 2px;
+}
+.showpost_bg{
+	background-image:url(http://www.peyghamak.com/images/Tables/showpost_fill.png);
+	background-repeat:repeat-y;
+	width:613px;
+}
+
+/*SIDEBAR*********************************************************************************/
+.sidebar_titlebar{
+	background-image:url(http://www.peyghamak.com/images/sidebar_title.png);
+	background-repeat:no-repeat;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/sidebar_title.png',sizingMethod=scale, enabled=true); _background:transparent;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#006699;
+	direction:rtl;
+	text-align:right;
+	padding-right:15px;
+	padding-top:5px;
+	vertical-align:text-top;
+}
+/*MENUBAR**********************************************************************************/
+#Menubar{
+	height:60px;
+	font-size:12px;
+	font-family:Tahoma;
+	background-image:url(http://www.peyghamak.com/images/menubar.png);
+	background-repeat:repeat-x;
+	vertical-align:text-top;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.peyghamak.com/images/menubar.png',sizingMethod=scale, enabled=true); _background:transparent;	
+}
+.Menubar_text{
+	position:relative;
+	left: 30px;
+	top: 20px;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#006600;
+	text-align:left;
+}
+.Menubar_text a, .Menubar_text a:link, .Menubar_text a:visited{
+	color:#006600;;
+	text-decoration:none;
+}
+.Menubar_text a:hover{
+	text-decoration:underline;
+}
+.Text a, .Text a:link, .Text a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.Text a:hover{
+	text-decoration:underline;
+	color:#EEEEEE;
+}

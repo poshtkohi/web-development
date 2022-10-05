@@ -1,0 +1,548 @@
+@import url("tables.css");
+@charset "utf-8";
+body{
+    background-image:url(http://www.peyghamak.com/images/bg.png);
+    background-attachment: fixed;
+    margin:0px;
+}
+hr{
+    color:#FFFFFF;
+    width:90%;
+}
+.home_go{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#666666;
+    direction:rtl;
+}
+.home_go a, .home_go a:link, .home_go a:visited{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#666666;
+    font-weight:bold;
+    text-decoration:none;
+}
+.home_go a:hover{
+    text-decoration:underline;
+    color:#333333;
+}
+.home_text{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#333333;
+    direction:rtl;
+    text-align:right;
+}
+.home_text .title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+}
+.home_text a, .home_text a:link, .home_text a:visited{
+    color:#006699;
+    text-decoration:none;
+}
+.home_text a:hover{
+    text-decoration:underline;
+}
+.display_date{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    color:#666666;
+    padding-right:28px;
+    text-align:right;
+}
+.post_input{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#333333;
+    text-align:right;
+    direction:rtl;
+    padding:3px;
+    background-color:#f2f2f2;
+    border-top:#999999 2px solid;
+    border-right:#999999 2px solid;
+    border-left:#BBBBBB 1px solid;
+    border-bottom:#BBBBBB 1px solid;
+    width:394px;
+    height:70px;
+}
+.comment_input{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#333333;
+    text-align:right;
+    direction:rtl;
+    padding:3px;
+    width:90%;
+    height:90px;
+}
+.character_reminder{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#FFFFFF;
+    text-align:center;
+    direction:rtl;
+}
+.tab a, .tab a:link, .tab a:visited, .tab a:hover{
+    border:0px;
+}
+.tab img{
+    border:0px;
+}
+.postBt {
+    width:70px;
+    height:50px;
+    font-family:Tahoma;
+    color:#24772F;
+    text-align:center;
+    font-size:13px;
+    font-weight:bolder;
+}
+.textInside{
+    padding:9px;
+    padding-right:25px;
+	overflow:hidden;
+	word-break: break-all;
+}
+.textInside a, .textInside a:link, .textInside a:visited, .textInside a:hover{
+	border:0px;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#333333;
+	text-decoration:underline;
+}
+.logoArea{
+    padding-right:20px;
+    width:70px;
+    height:55px;
+    margin-right:50px;
+    cursor:hand;
+    float:right;
+}
+.error{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#FF6600;
+    direction:rtl;
+}
+
+/*SINGUP*********************************************/
+.singup_lables {
+    font-family:Tahoma;
+    font-size: 12px;
+    color:#FFFFFF;
+}
+.singup_textbox{
+    font-family:Tahoma;
+    font-size: 12px;
+    color:#009900;
+    background-color:#effbda;
+    border-color:#999999;
+    border-style:solid;
+    border-width:1px;
+    padding:2px;
+}
+.singup_button {
+    font-family:Tahoma;
+    font-size:12px;
+    width: 40px;
+}
+.guest_top{
+    padding:3px;
+}
+/*COMMENTS**************************************************/
+#comment_box{
+    width:95%;
+    height:80px;
+    background-color:#FFFFD7;
+    border:#8C8C00 solid 1px;
+    padding:3px;
+}
+.commentBox{
+    width:99%; 
+    height:50px;
+    font-family:Tahoma;
+    font-size:12px;
+    border-top:#999999 2px solid;
+    border-right:#999999 2px solid;
+    border-left:#BBBBBB 1px solid;
+    border-bottom:#BBBBBB 1px solid;
+    background-color:#FFFFF0;
+    color:#333333;
+}
+/*MENU*********************************************************/
+.menuText{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#006600;
+    text-align:left;
+    margin-top:20px;
+    margin-left:30px;
+}
+.menuText a, .menuText a:link, .menuText a:visited{
+    color:#006600;;
+    text-decoration:none;
+}
+.menuText a:hover{
+    text-decoration:underline;
+}
+/*INPUTS********************************************************/
+.form_singin{
+    margin-top:20px;
+}
+.i_text{
+    font-family:"Trebuchet MS";
+    font-size:14px;
+    font-weight:bold;
+    color:#666666;
+    border:#CCCCCC 3px solid;
+    text-align:left;
+}
+.i_list{
+    font-family:"Tahoma";
+    font-size:12px;
+    color:#333333;
+    border:#CCCCCC 3px solid;
+    margin:5px;
+    padding:2px;
+    line-height:28px;
+}
+.i_button{
+    font-family:Tahoma;
+    font-size:12px;
+    border:#CCCCCC 3px solid;
+    background-color:#FFFFFF;
+    text-align:center;
+    padding-bottom:5px;
+    margin:5px;
+    height:28px;
+    min-width:50px;
+}
+.img_link{
+    border-style:none;
+}
+/*FREANDS******************************************************/
+.profile img{
+    border:#CCCCCC 3px solid;
+}
+.profile{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#333333;
+    padding:3px;
+    text-align:right;
+    direction:rtl;
+}
+.profile a, .profile a:link, .profile a:visited{
+    color:#000000;
+    text-decoration:none;
+}
+.profile a:hover{
+    color:#000000;
+    text-decoration:underline;
+}
+.profile a:link img, .profile a:link img a:link, .profile a:link img a:visited{
+    border-width:0px;
+    border-bottom-style:none;
+    margin:2px;
+}
+.profile_remove a, .profile_remove a:link, .profile_remove a:visited{
+    color:#e53636;
+    text-decoration:none;
+}
+.profile_remove a:hover{
+    color:#ba2323;
+    text-decoration:none;
+}
+.profile .img_link img{
+    border:none;
+    padding-top:4px;
+}
+/*POSTS********************************************************/
+#showPost_top{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#333333;
+    margin-top:0px;
+    background-image:url(http://www.peyghamak.com/images/Tables/showpost_top.png);
+    background-repeat:no-repeat;
+}
+#showPost_buttom{
+    font-family:Tahoma;
+    font-size:10px;
+    color:#666666;
+    direction:rtl;
+    text-align:right;
+    padding-right:25px;
+    padding-left:5px;
+    background-image:url(http://www.peyghamak.com/images/Tables/showpost_buttom.png);
+    background-repeat:no-repeat;
+    background-position:bottom left;
+    height:25px;
+        
+}
+#showPost_buttom a, #showPost_buttom a:link, #showPost_buttom a:visited{
+    color:#666666;
+    text-decoration:none;
+}
+#showPost_buttom a:hover{
+    color:#0066CC;
+    text-decoration:underline;
+}
+/*COMMENTS************************************************************/
+#showCmt_top{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#333333;
+    margin-top:0px;
+    background-image:url(http://www.peyghamak.com/images/Tables/showcmt_top.png);
+    background-repeat:no-repeat;
+}
+#showCmt_buttom{
+    font-family:Tahoma;
+    font-size:10px;
+    color:#666666;
+    direction:rtl;
+    text-align:right;
+    padding-right:25px;
+    padding-left:5px;
+    background-image:url(http://www.peyghamak.com/images/Tables/showcmt_buttom.png);
+    background-repeat:no-repeat;
+    background-position:bottom left;
+    height:25px;
+        
+}
+#showCmt_buttom a, #showCmt_buttom a:link, #showCmt_buttom a:visited{
+    color:#666666;
+    text-decoration:none;
+}
+#showCmt_buttom a:hover{
+    color:#0066CC;
+    text-decoration:underline;
+}
+.post_commentBt {
+    width:160px;
+    height:50px;
+    font-family:Tahoma;
+    text-align:center;
+    font-size:13px;
+    font-weight:bolder;
+    margin-left:28px;
+}
+.tDir_comments{
+    float:right;
+    margin-right:28px;
+    clear:both;
+}
+.comments_comments{
+    font-family:Tahoma;
+    font-size:12px;
+    float:left;
+    margin-left:28px;
+    direction:rtl;
+}
+.commentbox_over{
+    background-color:#B4D674;
+    font-family:Tahoma;
+    font-size:12px;
+    height:20px;
+    color:#FFFFFF;
+}
+.comments_auth{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    text-align:right;
+    padding-right:10px;
+    direction:rtl;
+    font-size:20px;
+    font-weight:bold;
+    color:#FFFFFF;
+}
+.comments_auth a:link, .comments_auth a:visited, .comments_auth a:hover{
+    text-decoration:underline;
+    color:#FFFFFF;
+}
+.comments_text{
+    font-family:Tahoma;
+    color:#333333;
+    font-size:14px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.comments_text a, .textInside a:link, .textInside a:visited, .textInside a:hover{
+	border:0px;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#333333;
+	text-decoration:underline;
+}
+.comments_date{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#FFFFFF;
+    text-align:right;
+    direction:rtl;
+}
+/*SETTINGS************************************************************************/
+.settings_input{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#333333;
+}
+.setting_doneMsg{
+    font-family:Tahoma;
+    font-size:12px;
+    font-weight:bold;
+    color:#009900;
+}
+.setting_links, .setting_links a:link, .setting_links a:visited{
+    font-family:Tahoma;
+    display:block;
+    font-size:12px;
+    color:#333333;
+    padding-right:5px;
+    text-decoration:none;
+    line-height:20px;
+}
+.setting_links a:hover{
+    color:#333333;
+    display:block;
+    background-color:#AAAAAA;
+    text-decoration:none;
+}
+.right_align{
+    font-family:Tahoma;
+    font-size:11px;
+    padding-right:17px;
+    color:#333333;
+    text-align:right;
+    direction:rtl;
+}
+.left_align, .left_align select{
+    font-family:Tahoma;
+    font-size:11px;
+    color:#333333;
+    text-align:left;
+    direction:rtl;
+}
+#setting_plate{
+    vertical-align:text-top;
+    text-align:right;
+    direction:rtl;
+}
+#setting_plate .setting_title{
+    padding:5px;
+    padding-right:10px;
+    padding-left:10px;
+    font-family:Tahoma;
+    color:#FF6600;
+    font-size:14px;
+    font-weight:bold;
+}
+#setting_plate .setting_text{
+    padding-right:15px;
+    padding-left:10px;
+    padding-top:25px;
+    font-family:Tahoma;
+    color:#5d686d;
+    font-size:12px;
+}
+#setting_plate .setting_password{
+    width:275px;
+    height:205px;
+    background-repeat:no-repeat;
+    background-image:url(http://www.peyghamak.com/images/Plates/password.png);
+}
+#setting_plate .setting_profile{
+    width:275px;
+    height:205px;
+    background-repeat:no-repeat;
+    background-image:url(http://www.peyghamak.com/images/Plates/profile.png);
+}
+#setting_plate .setting_picture{
+    width:275px;
+    height:205px;
+    background-repeat:no-repeat;
+    background-image:url(http://www.peyghamak.com/images/Plates/picture.png);
+}
+#setting_plate .setting_mobile{
+    width:275px;
+    height:205px;
+    background-repeat:no-repeat;
+    background-image:url(http://www.peyghamak.com/images/Plates/mobile.png);
+}
+#setting_plate .setting_messenger{
+    width:275px;
+    height:205px;
+    background-repeat:no-repeat;
+    background-image:url(http://www.peyghamak.com/images/Plates/messenger.png);
+}
+/************************************/
+#cs{
+    width:200px;
+    margin-top:3px;
+    background-image:url(http://www.peyghamak.com/images/Plates/comment_sidebar.png);
+    background-repeat:no-repeat;
+    overflow:hidden;
+    height:50px;
+    clear:none;
+}
+#cs img{
+    position:static;
+    margin-top:5px;
+    width:38px;
+    height:38px;
+    margin-right:5px;
+    padding-left:3px;
+    float:right;
+    overflow:hidden;
+}
+#sc_text, #sc_text a, #sc_text a:link, #sc_text a:hover{
+    margin-top:5px;
+    font-family:tahoma;
+    font-size:10px;
+    color:#333333;
+    padding-right:3px;
+    text-decoration:none;
+}
+#sc_text .c, #sc_text .c a, #sc_text .c a:link, #sc_text .c a:hover{
+    color:#666666;
+    text-decoration:none;
+}
+#sc_text .cb, #sc_text .cb a, #sc_text .cb a:link, #sc_text .cb a:hover{
+    color:#000000;
+    text-decoration:none;
+    font-weight:700;
+}
+.Blue_link{
+	display:block;
+	padding:3px;
+	background-color:#FFFFFF;
+	direction:ltr;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#333333;
+	text-decoration:none;
+	border:#79c4eb solid 1px;
+	text-align:center;
+	
+}
+.Blue_link a:link, .Blue_link a:visited, .Blue_link a:active{
+	background-color:#e4f3fc;
+	border:#79c4eb solid 1px;
+	direction:ltr;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#333333;
+	width:15px;
+	text-decoration:none;
+}
+.Blue_link a:hover{
+	background-color:#b2cede;
+	border:#79c4eb solid 1px;
+	direction:ltr;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#003366;
+	text-decoration:underline;
+}

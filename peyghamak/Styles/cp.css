@@ -1,0 +1,50 @@
+.accounts
+{
+	text-align:right; 
+	direction:rtl;
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 0px; 
+	BACKGROUND:left url(../images/cp/account.gif) no-repeat;
+	border:solid #99CC33 3px;
+}
+.password
+{
+	text-align:right; 
+	direction:rtl;
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 0px; 
+	BACKGROUND:left url(../images/cp/password.gif) no-repeat;
+	border:solid #99CC33 3px;
+}
+.picture
+{
+	text-align:right; 
+	direction:rtl;
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 0px; 
+	BACKGROUND:left url(../images/cp/picture.gif) no-repeat;
+	border:solid #99CC33 3px;
+}
+.devices
+{
+	text-align:right; 
+	direction:rtl;
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 0px; 
+	BACKGROUND:left url(../images/cp/devices.gif) no-repeat;
+	border:solid #99CC33 3px;
+}
+.cp_text
+{
+	font-family:"Trebuchet MS";
+	font-size:14px;
+	font-weight:bold;
+	color:#333333;;
+	margin:5px;
+	padding:2px;
+	line-height:28px;
+}
+a
+{
+text-decoration:none;
+}

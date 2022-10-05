@@ -1,0 +1,47 @@
+﻿<post>
+   <date><p class="date">[date]</p></date>
+    <p>
+    <div id="avatar_small">
+    	<a href="[url]" title="[name]"><img src="[image]" style="border-width:0px;width:40px;height:40px" /></a>
+    </div>
+    <div id="reply_fav">
+         <comments>
+		<NormalPages><div id="comments_counter">
+		[NumComments]</div> <a href="[url]comments.aspx?PostID=[id]"><img src="http://www.peyghamak.com/theme/images/reply.png"/></a>
+		</NormalPages> 
+
+		<StarredPages><div id="comments_counter">
+		[NumComments]</div> <a href="[url]comments.aspx?PostID=[PostID]"><img src="http://www.peyghamak.com/theme/images/reply.png"/></a>
+		</StarredPages>
+        </comments>
+ 
+    <star>
+        <unstarred>
+            <img src="http://www.peyghamak.com/images/start.gif" id="star-img[id]" onclick="DoStar('[id]');"/>
+        </unstarred>
+        <starred>
+            <img src="http://www.peyghamak.com/images/start_selected.gif" id="star-img[id]" onclick="ItemDelete('[StarredID]','[StarredPostDeleteMode]');" />
+        </starred>
+	</star>
+    </div>    
+    <div id="message" style="text-align:[align];direction:[dir]">[PostContent]</div>
+    <div id="message_footer">
+   	  			[name]، [LastTime]&nbsp;&nbsp;
+			<from>
+            	-&nbsp;&nbsp;از [from]&nbsp;
+            </from>
+             <delete>
+            	-&nbsp;&nbsp;<a href="javascript:void(0);" onclick="ItemDelete('[id]','[PostDeleteMode]');" id="iiii">حذف این پست</a>&nbsp;&nbsp;
+			</delete>
+            <StarsDelete>
+            	-&nbsp;&nbsp;<a href="javascript:void(0);" onclick="ItemDelete('[id]','[StarredPostDeleteMode]');" id="iiii">حذف از لیست علاقه مندی ها</a>&nbsp;&nbsp;
+			</StarsDelete>
+      </div>    
+    </p>
+</post>
+    <p>&nbsp;</p>
+<paging>
+	
+    <div class="pager">[paging]</div>
+    <p></p>
+</paging>

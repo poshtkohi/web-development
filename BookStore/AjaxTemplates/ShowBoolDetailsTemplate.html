@@ -1,0 +1,60 @@
+﻿<div id="lastbook" style="border:#000 solid 1px; background-color:#FFF;height:100%">
+      <div id="loaderImg_AddToShoppingCart" align="center" style="display:none"><img src="images/loading.gif"/></div>
+      <div id="cover"><img src="[img]" style=" border-color:#000;border-width: 1px"/></div>
+      <div id="info" style="height:100%">
+             <img src="images/close.gif" width="20" height="20" style="cursor:pointer" onclick="_isBoolDetailsLayerFirstLoad=false;ShowBoolDetailsLayer(false,'-1')" align="left" title="Close"/><br><br>
+<persian>
+       <div id="top" style="height:100%">
+       <p class="title" align="[align]" dir="[dir]" style="font-size:medium">
+	       	[Title]
+       </p>
+            <div dir="rtl" align="right"><b>نویسنده:</b> <span dir="[dir]">[Writer]</span></div></br>
+            <!--div dir="rtl" align="right"><b>مترجم:</b> <span dir="[dir]">[Translator]</span></div></br-->
+            <div dir="rtl" align="right"><b>ناشر:</b> <span dir="[dir]">[Publisher]</span></div></br>
+            <div dir="rtl" align="right"><b>سال چاپ:</b> [PublishDate]</div></br>
+            <div dir="rtl" align="right"><b>صفحات:</b> [Pages]</div></br>
+            <div dir="rtl" align="right"><b>شابک:</b>[ISBN]</div></br>
+            <div dir="rtl" align="right"><!--b>نوع فایل:</b> [FileType]</div--></br>
+            <div dir="rtl" align="right"><!--b>حجم فایل:</b> [FileSize]</div--></br>
+            <div dir="rtl" align="right"><!--b>قیمت:</b> [Price]</div--></br></br>
+			<div dir="rtl" align="right"><!--b>چکیده:</b><br><br><div dir="[dir]" align="[align]">[Abstract]</div--><br></div>
+        </div>
+       <div id="btn" style="height:100%">
+            <div dir="rtl"><logined><a href="javascript:void(0);" onclick="_updateID='[BookID]';DoPost('AddToShoppingCart');">به سبد خرید اضافه کن</a> | تعداد : <input name="num_[BookID]" id="num_[BookID]" value="1" type="text" style="height:15px; width:25px;direction:ltr;text-align:center" readonly="readonly"/></logined></div>
+            <!--br><br><div dir="rtl" align="right"><b>طبقه بندی ها</b></div-->
+            <!--div align="left" style="height:100%">
+            	<div><b><p>[EnglishCategory]</p></b></div>
+               	<div><b><p>[PersianCategory]</p></b></div>
+                <br>
+            </div-->        
+       </div>
+</persian>
+
+<english>
+       <div id="top" style="height:100%">
+       <p class="title" align="[align]" dir="[dir]">
+	       	[Title]
+       </p>
+            <div dir="ltr" align="left"><b>Writer:</b> [Writer]</div></br>
+            <div dir="ltr" align="left"><b>Translator:</b> [Translator]</div></br>
+            <div dir="ltr" align="left"><b>Publisher:</b> [Publisher]</div></br>
+            <div dir="ltr" align="left"><b>Publish Year:</b> [PublishDate]</div></br>
+            <div dir="ltr" align="left"><b>Pages:</b> [Pages]</div></br>
+            <div dir="ltr" align="left"><b>ISBN:</b> [ISBN]</div></br>
+            <div dir="ltr" align="left"><b>File Type:</b> [FileType]</div></br>
+            <div dir="ltr" align="left"><b>File Size:</b> [FileSize]</div></br>
+            <div dir="ltr" align="left"><b>Price:</b> [Price]</div></br></br>
+			<div dir="ltr" align="left"><b>Abstract:</b><br><br><div dir="[dir]" align="[align]">[Abstract]</div><br></div>
+        </div>
+       <div id="btn" style="height:100%">
+            <div dir="ltr" align="left"><logined><a href="javascript:void(0);" onclick="_updateID='[BookID]';DoPost('AddToShoppingCart');">Add to shopping cart</a> | Number(s) : <input name="num_[BookID]" id="num_[BookID]" value="1" type="text" style="height:15px; width:25px;direction:ltr;text-align:center" readonly="readonly"/></logined></div>
+            <br><br><div dir="ltr" align="left"><b>ُSubjects:</b></div><br /><br />
+            <div align="left" style="height:100%">
+            	<div><b><p>[EnglishCategory]</p></b></div>
+               	<div><b><p>[PersianCategory]</p></b></div>
+                <br>
+            </div>        
+       </div>
+</english>
+      </div>
+     </div>

@@ -1,0 +1,54 @@
+﻿<MainPersian>
+ <div id="action">تعداد نتایج جستجو: [num]<br/><br/><br/></div>
+<post>
+<div id="booksearch">
+      <a href="javascript:void(0);" onclick="_isBoolDetailsLayerFirstLoad=true;ShowBoolDetailsLayer(true,'[BookID]');"><div id="img"><img src="[img]" width="89" height="135" style="border:#000 solid; border-width:1px"/></div></a>
+      <div id="info">
+       <div class="gen-title" style="font-size:13px;font-family:Tahoma;font-weight:normal">
+              <p class="title" align="right" dir="[dir]">
+	       	<div dir="rtl" align="right">عنوان: <span dir="[dir]">[BookTitle]</span></div><br/>
+       </p>
+       </div>
+       <div>
+       <span class="gen-title" style="font-size:13px;font-family:Tahoma;font-weight:normal">
+            <div dir="rtl" align="right">نویسنده: <span dir="[dir]">[BookWriter]</span></div>
+			<div dir="rtl" align="right">سال نشر: <span dir="[dir]">[BookPublishDate]</span></div>
+            <div dir="rtl" align="right">ناشر: <span dir="[dir]">[BookPublisher]</span></div>
+            <div dir="rtl" align="right">تعداد صفحات: <span dir="[dir]">[BookPages]</span></div>
+            <div dir="rtl" align="right">شابک: <span dir="[dir]">[BookISBN]</span><logined>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:8pt;text-align:center;direction:[dir-all]"><a href="javascript:void(0);" onclick="_updateID='[BookID]';DoPost('AddToShoppingCart');"><english>Add to shopping cart</english><persian>به سبد خرید اضافه کن</persian></a> | <english>Number(s)</english><input name="num_[BookID]" id="num_[BookID]" value="1" type="text" style="height:15px; width:25px;direction:ltr;text-align:center" readonly="readonly"/><persian> تعداد </persian></span></logined></div>
+            <br />
+       </span>
+       </div>
+       <!--div id="action"><a href="[id]">اصلاعات بیشتر</a> | <a href="#">به سبد خرید اضافه کن</a></div -->
+      </div>
+     </div>
+</post>
+
+</MainPersian>
+
+
+<MainEnglish>
+<post>
+<div id="booksearch">
+      <a href="javascript:void(0);" onclick="_isBoolDetailsLayerFirstLoad=true;ShowBoolDetailsLayer(true,'[BookID]');"><div id="img"><img src="[img]" width="89" height="135" style="border:#000 solid; border-width:1px"/></div></a>
+      <div id="info">
+       <div class="gen-title">
+              <p class="title" align="[align]" dir="[dir]" style="font-size:medium">
+	       	[BookTitle]
+       </p>
+       </div>
+       <div>
+       <span class="gen-info"><div dir="ltr" align="left"><b>Writer:</b> <span dir="[dir]">[BookWriter]</span></div></span><br />
+			<div dir="ltr" align="left"><b>Abstract:</b><br><br><div dir="[dir]" align="[align]">[BookAbstract]</div></div>
+       </div>
+           <logined>
+    	<p style="font-size:8pt;text-align:center;direction:[dir-all]"><a href="javascript:void(0);" onclick="_updateID='[BookID]';DoPost('AddToShoppingCart');"><english>Add to shopping cart</english><persian>به سبد خرید اضافه کن</persian></a> | <english>Number(s)</english><persian>تعداد</persian> : <input name="num_[BookID]" id="num_[BookID]" value="1" type="text" style="height:15px; width:25px;direction:ltr;text-align:center" readonly="readonly"/></p>
+    </logined>
+       <!-- div id="action"><a href="[id]">اصلاعات بیشتر</a> | <a href="#">به سبد خرید اضافه کن</a></div -->
+      </div>
+     </div>
+</post>
+
+</MainEnglish>
+<paging><div class="Blue_link">[paging]</div></paging>
+

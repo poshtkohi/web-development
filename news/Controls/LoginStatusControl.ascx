@@ -1,0 +1,2 @@
+﻿<%@ Control Language="c#" AutoEventWireup="false" Codebehind="LoginStatusControl.ascx.cs" Inherits="news.Controls.LoginStatusControl" TargetSchema="http://schemas.microsoft.com/intellisense/ie5"%>
+ <DIV dir="rtl"><IMG height=16 src="/images/member.png" width=13 align=absMiddle> <SPAN id=userLB style="FONT-SIZE: 8pt; FONT-FAMILY: Tahoma;">میز کار  <asp:Label id="username" runat="server"></asp:Label> !</SPAN></DIV>

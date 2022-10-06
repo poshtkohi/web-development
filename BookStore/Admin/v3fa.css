@@ -1,0 +1,157 @@
+body, div, span{font-family:Tahoma;   font-size: 8pt;  }
+td {font-family:Tahoma;	font-size:8pt;	color:#444444; }
+
+.right{text-align:right; direction:rtl; vertical-align:top; font-weight:bold}
+.right2{text-align:right; direction:rtl; vertical-align:top; background-repeat:no-repeat; background-position:right }
+.bg-l-att{ background-position:left; background-repeat:no-repeat; }
+.bg-att{background-repeat:repeat-x; background-position:top; }
+.borderdotted_but{ border-bottom:1px dotted #666666}
+.bordersolid_but{ border:1px solid #cccccc}
+
+.main {FONT-SIZE:  8pt; }
+.mainw {FONT-SIZE:  8pt; color:#FFFFFF }
+.main2 {FONT-SIZE:  8pt; padding:2px 0px 2px 0px;}
+.mainb{FONT-SIZE: 8pt; font-weight:bold;}
+.mainbw{FONT-SIZE: 8pt; font-weight:bold; color:#FFFFFF}
+ 
+.mianlink:link {FONT-SIZE: 8pt; COLOR:#39617D; FONT-FAMILY:Tahoma; TEXT-DECORATION: none;  }
+.mianlink:visited {FONT-SIZE:  8pt; COLOR:#0066CC; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+.mianlink:active {FONT-SIZE:  8pt; COLOR:#BA1313; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline}
+.mianlink:hover {FONT-SIZE:  8pt; COLOR:#BA1313; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline}
+
+.mianlinkred:link {FONT-SIZE: 11px; COLOR:#FF6600; FONT-FAMILY:Tahoma; TEXT-DECORATION:none}
+.mianlinkred:visited {FONT-SIZE:  11px; COLOR:#FF3300; FONT-FAMILY: Tahoma; TEXT-DECORATION:none}
+.mianlinkred:active {FONT-SIZE:  11px; COLOR:#FF3300; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+.mianlinkred:hover {FONT-SIZE:  11px; COLOR:#000000; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline  }
+
+.newslinkred:link {FONT-SIZE: 11px; COLOR:#666666; FONT-FAMILY:Tahoma; TEXT-DECORATION: none  }
+.newslinkred:visited {FONT-SIZE:  11px; COLOR:#333333; FONT-FAMILY: Tahoma; TEXT-DECORATION:none}
+.newslinkred:active {FONT-SIZE:  11px; COLOR:#99CC00; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+.newslinkred:hover {FONT-SIZE:  11px; COLOR:#999900; FONT-FAMILY: Tahoma;TEXT-DECORATION:underline}
+
+.mainpagenews{font-size:11px;font:Tahoma}
+.news_comm{ color:#5A9601;text-decoration:underline;font-family: tahoma;font-size:11pt;font-weight: bold;}
+.news_comm:visited { color: #5A9601;text-decoration:underline;font-size:13px;font-family:tahoma;font-weight:bold;}
+.news_comm:hover { color: #8F8F8F;text-decoration:none;font-size:12pt;font-family:tahoma;font-weight:bold;}
+
+.v3divfirst{padding:2px 0px 0px 0px;text-align:justify; direction:rtl}
+.v3divmiddle{padding:5px 0px 5px 0px;text-align:justify; direction:rtl}
+.v3divend{padding:0px 0px 5px 0px;text-align:justify; direction:rtl}
+.v3divsubtitle{background-color:#EFEFEF; text-align:right; direction:rtl; border:1px dotted #DFDFDF;font-family:tahoma;font-size:10px;font-weight:bold;color:#666666; border-top:1px dotted #cccccc;}
+.v3divlistgray{ text-align:right ;direction:rtl ;font-family:tahoma; font-size:13px; color:#333333; background-color:#f2f2f2; height:25px;  border-top:1px dotted #cccccc;vertical-align:middle}
+.v3divlistw{text-align:right ;direction:rtl ; font-family:tahoma; font-size:13px;color:#333333; background-color:#ffffff; height:25px;   border-top:1px dotted #cccccc; vertical-align:middle}
+
+a, a:visited {   color:#666666; text-decoration:none;  font:Tahoma;font-size:8pt}
+a:hover {   color:#006699; text-decoration:underline; font:Tahoma;font-size:8pt }
+a.red{	color:#9D080D;	text-decoration:none;}
+a.green{	color:#51A517;	text-decoration:none;}
+a.blue{	color:#0033CC;	text-decoration:none;}
+
+.v3nodisplay { 	DISPLAY: none}
+/* start nav styles */
+.v3search {  margin:0px 0px 0px 0px; border:1px solid #CCCCCC; direction:rtl ; font:Tahoma;font-size:8pt}
+.v3headersearch {   direction:rtl ; width:95px; height:16px; border:1px solid #CCCCCC; padding:0px;  font:Tahoma;font-size:8pt; vertical-align:top; }
+.v3headertitle{  direction:rtl ;     border:1px dotted #f5f5f5; padding:0px;  font:Tahoma;font-size:9pt ;vertical-align:top; background-position:right; background-repeat:no-repeat }
+.v3headercomentform{  direction:rtl ;  width:390px; height:182px; border:1px solid #CCCCCC; padding:0px;  font:Tahoma;font-size:8pt; vertical-align:top; color:#333399;}
+.v3selectform {direction:rtl ; margin:0px 0px 0px 0px;font-family:Tahoma;font-size:9pt; border:1px solid #e5e5e5;color:#333333; width:300px}
+.v3select {width:135px; height:18px ; font:Tahoma;font-size:8pt; border:1px solid #CCCCCC; }
+.v3txt {height:20px ; font:Tahoma;font-size:9pt; border:1px solid #cccccc; }
+.v3selectsearch{width:225px; height:18px ;  direction:rtl ;   font:Tahoma;font-size:8pt;  border:1px solid #CCCCCC;}
+.v3txtboxfr{width:120px; height:18px ;  direction:rtl ;   font:Tahoma;font-size:8pt;  border:1px solid #CCCCCC;}
+.v3searchlhn {   direction:rtl ;margin:4px 0px 0px 0px; }
+.v3lhninp {  width:100px; height:16px; border:1px solid #CCCCCC; padding:0px; font-family:Tahoma; font-size:100%; vertical-align:top; }
+.v3lhnsearchhdr {  font-size:105%; color:#000000; margin:0px; padding:8px 0px 0px 0px; font-weight:bold; }
+.v3submit {  font-size:12px; font-family:Tahoma;  height:22px; border:1px solid #666666;background-color:#cccccc;}
+.v3submit_Org{ font-size:12px; font-family:Tahoma;  height:25px; border:1px solid #CC0000;background-color:#FF4D00 ; color:#FFFFFF;}
+.v3submit_Gr{ font-size:12px; font-family:Tahoma;  height:25px; border:1px solid #336600;background-color:#99CC00; color:#FFFFFF;}
+.v3submit_Blue{ font-size:12px; font-family:Tahoma;  height:25px; border:1px solid #003399;background-color:#0066FF; color:#FFFFFF;}
+
+.sepstyle { 	BACKGROUND-POSITION: 50% bottom; FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/sites/nav/pix/drop_linerule.gif); MARGIN-LEFT: 4px; WIDTH: 170px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 1px}
+
+.v3images{ border-bottom:1px solid #bababa;   padding-bottom:2px; }
+.v3butlink_navhome {   border-top:1px solid #D6D7D6;border-bottom:1px solid #D6D7D6;  padding:0px 2px 1px 0px; background-color:#F7F7F7;font:Tahoma;font-size:10px; }
+.divtitledars{padding:4px 0px 4px 0px; font-size:10px; font-weight:bold; color:#003366;background-image:url(images/bg-navr.gif); background-position:right;  background-repeat:no-repeat ;direction:rtl; text-align:right;}
+.v3navCont { font:Tahoma;font-size:8pt}
+.v3nav { font-size:8pt;	position:relative; height:28px;padding-top:0px;color:#A9AAAB}
+.v3navul {  padding-top:7px; padding-left:5px}
+.v3navul2 {  padding-top:0px; }
+.v3navdhtml {  position:relative; float:right; padding-top:0px; }
+.v3navstart {  font-size:9pt; color:#0860A8; padding-left:28px; }
+.v3navpad {  font-size:9pt; color:#0860A8; padding-left:8px; padding-right:8px; }
+.v3navend {  font-size:9pt; color:#0860A8; padding-left:8px; }
+.v3inppad {  padding-top:0px; }
+.v3butsubmenumain {   border-top:1px solid #D6D7D6;border-top-style:dotted;  padding:3px 3px 3px 3px; background-color:#FAFAFA;font:Tahoma;font-size:10px; }
+.v3butsubmenumain_off {  background-color:#FAF8F5; padding:3px 3px 3px 3px; }
+.v3butsubmenumain_off a, .v3butsubmenumain_off a:visited{  color:#666666; text-decoration:none; }
+.v3butsubmenumain_on  {  background-color:#FFFFFF;  padding:3px 3px 3px 3px; cursor:pointer; }
+.v3butsubmenumain_on  a, .v3butsubmenumain_on  a:visited{  color:#FF0000; text-decoration:none; }
+.v3butsubmenumain_on a:hover { color:#FF0000; text-decoration:none; }
+
+.v3butsubmenunews {   border-top:1px solid #D6D7D6;border-top-style:dotted;  padding:3px 3px 3px 3px; background-color:#FAFAFA;font:Tahoma;font-size:10px; }
+.v3butsubmenunews_off {  background-color:#F4F4F4; padding:3px 3px 3px 3px; }
+.v3butsubmenunews_off a, .v3butsubmenumain_off a:visited{  color:#666666; text-decoration:none; }
+.v3butsubmenunews_on  {  background-color:#ffffff;  padding:3px 3px 3px 3px; cursor:pointer; }
+.v3butsubmenunews_on  a, .v3butsubmenumain_on  a:visited{  color:#99CC00; text-decoration:none; }
+.v3butsubmenunews_on a:hover { color:#7B9100; text-decoration:none; }
+
+.v3butsubmenu {  border-top:1px solid #D6D7D6;  padding:3px 3px 2px 9px; background-color:#F7F7F7;font:Verdana, Arial, Helvetica, sans-serif;font-size:13px; }
+.v3butsubmenu_end {  border-top:1px solid #D6D7D6;border-bottom:1px solid #D6D7D6;  padding:2px 2px 2px 9px; background-color:#F7F7F7;font:Verdana, Arial, Helvetica, sans-serif;font-size:13px; }
+.v3butsubmenu_off { background-color:#f3f3f3; padding:0px 2px 0px 9px; }
+.v3butsubmenu_off a, .v3butsubmenu_off a:visited{ color:#666666; text-decoration:none; }
+.v3butsubmenu_off a:hover { color:#666666; }
+.v3butsubmenu_on { background-color:#FFFFFF;  padding:0px 2px 0px 9px; cursor:pointer; }
+.v3butsubmenu_on a, .v3butsubmenu_on a:visited{ color:#0033CC; text-decoration:none; }
+.v3butsubmenu_on a:hover {color:#0033CC; text-decoration:none; }/* abi */
+.v3butsubmenu_selected{border-top:1px solid #D6D7D6;padding:2px 2px 2px 9px;background-color:#ffffff;color:#0066FF;font:Verdana, Arial, Helvetica, sans-serif;font-size:13px;}
+
+.v3navoff {  color:#333333; }
+a.v3navoff, a.v3navoff:visited  {  color:#333333; text-decoration:none; }
+a.v3navoff:hover  {  color:#333333; text-decoration:underline; }
+.v3container {   position:absolute; top:85; }
+.contentwork{   font-size:116%;  font:Tahoma; }
+.v3content {   font-size:90%;   position:relative; }
+.v3contentx {   font-size:90%;  font:Tahoma; width:684px;}
+.v3contentHome {  width:856px; font-size:9pt; line-height:135%; position:relative; }
+.v3contenthr {  border-top:1px solid #bababa; width:856px; position:absolute; top:85; font-size:1px;}
+.v3content td {  font-size:9pt; line-height:135%; }
+.v3content2 td  {  font-size:9pt; line-height:135%; }
+.v3h1 {  font-size:200%; line-height:140%; color:#000000; margin:0px; padding:0px 0px 23px 0px; font-weight:normal; }
+.v3h1withsub {  font-size:220%; color:#000000; margin:0px; padding:0px 0px 8px 0px; font-weight:normal; }
+.v3h2 {  font-size:145%; line-height:120%; color:#000000; margin:0px; padding:0px 0px 4px 0px; border-bottom:1px solid #bababa; }
+.v3h3 {  font-size:135%; color:#000000; margin:0px; padding:0px 0px 4px 0px; font-weight:bold; border-bottom:1px solid #bababa; }
+.v3h4 {  font-size:125%; color:#000000; margin:0px; padding:0px 0px 3px 0px; font-weight:bold; border-bottom:1px solid #bababa; }
+ 
+/* always use for the rightmost column, fixes display issue for Mac IE (right column was breaking to another row, v3_macie.css sets this width to 177px) */
+
+.v3but {  border-left:1px solid #D6D7D6; border-right:1px solid #D6D7D6; padding-left:2px; padding-right:2px; }
+.v3butquick { 	BORDER-RIGHT: #d6d7d6 1px solid; PADDING-RIGHT: 2px; PADDING-LEFT: 6px; BORDER-LEFT: #d6d7d6 1px solid;}
+.v3but2_off {  background-color:#f6f6f6; padding:3px 9px 3px 9px; }
+.v3but2_on {  background-color:#ebebeb; padding:3px 9px 3px 9px; cursor:pointer; }
+.v3buttxt {  color:#0860A8; font-size:9pt; font-weight:bold; }
+
+.v3color_orange{ color:#FF6600;}
+.v3color_blue{ color:#003399;}
+.v3color_green{ color:#6DB201;}
+.v3color_jobs{ color:#4E6172;}
+.v3color_redbrown{ color:#CC0000;}
+.v3color_zeytoni{ color:#999900;}
+.v3color_banafsh{color:#510051}
+.v3color_blueweb{color:#3D5A69}
+
+.ItemStyle{
+	list-style-image: url(file.gif);  
+	font-family: "tahoma";
+	font-size: 12px;
+	vertical-align: middle;
+	font-weight:lighter; 
+
+}
+
+.PopItemStyle{
+	list-style-image: url(home.gif); 
+	font-family: "tahoma";
+	font-size: 11px;
+	vertical-align: middle;
+	font-weight:bold;
+	line-height:22px;
+}

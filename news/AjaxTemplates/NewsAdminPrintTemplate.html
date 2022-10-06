@@ -1,0 +1,59 @@
+﻿<html>
+	<head>
+		<title>[PostTitle]</title>
+		<meta http-equiv="Content-Language" content="fa">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="/styles/main.css" rel="stylesheet" rev="stylesheet" />
+		<link href="/styles/cp.css" rel="stylesheet" rev="stylesheet" />
+        <script language="javascript">
+			function Print(isPrint)
+			{
+				/*if(isPrint)
+					window.print();
+				else
+					return ;*/
+				if(isPrint)
+				{
+					var txt = document.getElementById('ForPrint').innerHTML; 
+					document.open(); 
+					document.write(txt); 
+					document.close(); 
+					window.print(); 
+					// the previous line may need to be... 
+					// document.print(); 
+				} 
+				else
+					return ;
+			}
+		</script>
+	</head>
+<body onLoad="setTimeout('Print([isPrint])',0);">
+        <script type="text/javascript" src="/js/wz_tooltip.js"></script>
+		<script type="text/javascript" src="/js/tip_balloon.js"></script>
+	<table width="850" border="0" cellpadding="0" cellspacing="0" align="center" height="760">
+		<!--DWLayoutTable-->
+		<tr>
+			<td width="38" height="30"><img src="/images/print.png" width="71" height="68" style="cursor:pointer" onClick="Print(true);" onmouseover="TagToTip('T2tDirectPrintHelp', BALLOON, true, ABOVE, true, OFFSETX, -17, FADEIN, 600, FADEOUT, 600, PADDING, 8)"
+						onmouseout="UnTip()"></td>
+            <td width="1119">&nbsp;</td>
+          <td width="43">&nbsp;</td>
+		</tr>
+		<div id="T2tDirectPrintHelp" style="display:none">
+            <div class="tooltipDiv">
+                با کلیک بر روی این عکس از خبر انتخاب شده پرینت گرفته خواهد شد.</div>
+        </div>
+		<tr id="ForPrint">
+		  <td height="760">&nbsp;</td>
+		  <td align="right" valign="top" bgcolor="#FFFFFF" width="850"><div style="text-align:right"><font face="B Yagut" size="4">[PostContent]</font></div></td>
+		  <td>&nbsp;</td>
+	  </tr>
+		<tr>
+		  <td height="39">&nbsp;</td>
+		  <td>&nbsp;</td>
+		  <td>&nbsp;</td>
+	  </tr>
+    </table>
+</body>
+</html>
+</table> 
+</body>

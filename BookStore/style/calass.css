@@ -1,0 +1,69 @@
+@charset "utf-8";
+*, html{margin:0;}
+body{background-color:#f7f7f7;}
+#skl{margin-left:auto; margin-right:auto; overflow:hidden; border-left:#999 solid 1px; border-right:#999 solid 1px; background-color:#FFF;}
+
+#skl, #top, #topspace, #btm, #topmenu{width:950px;}
+
+#top{height:80px;}
+#btm{height:51px; border:#999 solid 1px; margin-left:auto; margin-right:auto; background:url(../images/btm.jpg);}
+#topspace{height:10px; border-bottom:#b2dde0 solid 1px;}
+#hb{width:10px; height:5px;}
+#width-spacer{height:50px; overflow:hidden; clear:both; width:300px;}
+#left{width:250px; float:left; background-color:#00F;}
+#right, #center-s1, #lastbook, #news{text-align:right; padding:0 3px; font:normal 12px Tahoma;}
+#center-s1{width:763px; /*width:597px; margin-left:3px;*/ float:left; border-right:#b2dde0 solid 1px;/*overflow:hidden;*/}
+#center-s1 a, #center-s1 a:visited{text-decoration:none; color:#06C;}
+#right{width:172px; margin-left:1px; float:right; direction:rtl;}
+
+#topmenu{height:20px; background-color:#B2C7E0; padding:4px 10px 0 0; margin-top:10px; font:normal 12px Tahoma; text-align:right; direction:rtl; background:#B2C7E0 url(../images/topmenu_bg.png);overflow:hidden;}
+#topmenu #search{float:left; width:150px; margin-left:10px; margin-top:-2px; background:url(../images/seach_bg.png) no-repeat;}
+#topmenu #search input{font: normal 11px Tahoma, Geneva, sans-serif; width:120px; float:right;}
+#topmenu #lang{float:left; margin-left:10px;}
+#topmenu a{text-decoration:none; color:#069;}
+#topmenu a:hover{text-decoration:underline;}
+#booklist{background:#b2dde0 url(../images/booklist.png); color:#FFF ; width:100%; font-weight:bold;}
+#statistics{background-color:#B6E3B3; color:#FFF; width:100%; font-weight:bold;}
+#right a{text-decoration:none; color:#8DAED4; padding-right:2px;}
+#right a:hover{text-decoration:underline;}
+#right a, #booklist, #statistics{padding-top:2px; height:20px;}
+
+#lastbook{ width:745px; margin-right:4px; height:250px; padding:5px 0 5px 5px; display:block;/*overflow:hidden;*/}
+#lastbook #cover{float:right; margin-right:5px;}
+#lastbook #info{float:left; margin-left:5px; width:540px; height:220px;}
+#lastbook #info #top{height:188px; width:530px;}
+#lastbook #info #top .title{font:bold 16px Arial, Helvetica, sans-serif; padding-bottom:10px}
+#lastbook #info #btn{height:24px; width:524px; border:#999 solid 1px; background-color:#ECCCBA; padding:5px 5px 0 0;}
+
+#book{width:220px;height:100%px; margin:25px 0 0 25px; float:left;_margin-left:18px; padding-top:4px; overflow:hidden; border:#CCC 1px solid;}
+#book #img{position:relative; margin-right:5px; _margin-right:2px; float:right; width:89px; height:135px; float:right}
+#book #info2{position:relative; width:200px; _width:202px; height:30px; padding:5px; border:#CCC solid 1px; margin-top:137px; #margin-top:2px; margin-left:auto; margin-right:auto; background-color:#FFFFE6; color:#888; direction:rtl; overflow:hidden;}
+#book #info2 a{text-decoration:none; color:#666}
+#book #info2 a:hover{text-decoration:underline;}
+#book #info1{width:121px; height:135px; padding:0 2px; float:left; overflow:hidden;}
+#book #info1-ltr{width:121px; height:135px; padding:0 2px; float:left; overflow:hidden; text-align:left; direction:ltr;}
+#book #info1 strong{font-family:Verdana, Geneva, sans-serif;}
+
+#register{width:500px;}
+#register input, #register label, #register select{height:15px; font:normal 12px Tahoma;clear:both; float:right;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 5px;
+}
+#register input{border:#ECEBBA solid 1px;}
+#register .noborder{border:none;}
+#register input:hover{background-color:#f4f4e9;}
+
+.gen-title{font:bold 16px Arial, Helvetica, sans-serif;}
+.gen-info{font:italic 10px Tahoma, Geneva, sans-serif; color:#666; margin-top:15px;}
+#pager{width:100%; text-align:center; color:#666; margin-top:10px; float:right; clear:both;}
+#pager a, #pager a:visited{text-decoration:underline; color:#06C;}
+
+#news{text-align:right; direction:rtl;}
+.search table input{font-family:Tahoma, Geneva, sans-serif; direction:rtl; text-align:right;}
+
+#booksearch{float:left; clear:both; width:99%; margin-top:10px; overflow:hidden;}
+#booksearch #img{float:right; width:89px; height:135px;}
+#booksearch #info{float:right; width:640px; margin-right:10px;}
+#booksearch #action a, #booksearch #action a:visited{color:#06C; text-decoration:none;}
+#booksearch #action a:hover{text-decoration:underline;}

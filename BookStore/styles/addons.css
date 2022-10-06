@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.validation{
+	text-align:right;
+	font-family:Geneva, Geneva, Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FF9900;
+	direction:rtl;
+}
+.validation_tahoma{
+	text-align:right;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#FF9900;	
+	direction:rtl;
+}
+
+input:hover{background-color:#f4f4e9;}
+#register{width:500px;}
+input {margin:2px 0; font:normal 12px Tahoma;border:#ECEBBA solid 1px;}
+
+.bodyInvis {background-image:url(../images/bg_content_invisible_mode.jpg);background-repeat:repeat-x;margin-top:0px;font-family: Tahoma, Verdana, Arial, SunSans-Regular, Sans-Serif;}
+
+

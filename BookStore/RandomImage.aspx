@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="RandomImage.aspx.cs" Inherits="bookstore.RandomImage" %>

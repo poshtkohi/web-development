@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "bookstore", "http://bookstore", "{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/bookstore"
+		Debug.AspNetCompiler.PhysicalPath = "..\bookstore\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\bookstore\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/bookstore"
+		Release.AspNetCompiler.PhysicalPath = "..\bookstore\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\bookstore\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\bookstore\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Debug|.NET.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Debug|.NET.Build.0 = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Release|.NET.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Release|.NET.Build.0 = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{4DAFB0B4-30A3-4FDD-9F1A-71132559F9A7}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+EndGlobal

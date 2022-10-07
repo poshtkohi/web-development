@@ -4,7 +4,7 @@ For virtually 10 years, I was developing national online social network services
 
 There are two other projects: a) BookStotre is a complete portal for a bookstore with online payment, and b) News is portal for news management within a news organisation such as a newspaper, etc.
 
-The database of all these websites were designed using MSSQL/MYSQL databases with stored procedures in order to increase the performance as much as possible.
+The databases of all these websites were designed using MSSQL/MYSQL with stored procedures in order to increase performance as much as possible.
 
 **Licence:** Note that the code can be changed and reused as long as you keep the copyright inside and at the beginning of source files in the source directory unchanged. If these websites are used everywhere, they should be cited as _Alireza Poshtkohi, Fully fledged web-based platforms for social media, shopping sites and more, <https://github.com/poshtkohi/web>_.
 
